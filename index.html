@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Generate Password</h2>
+        <div class="el">
+            <input type="text" placeholder="Password" class="inp" id="password" />
+            <button onclick="copytext()" title="Copy" ><i class="fa fa-copy"></i></button>
+            <button onclick="generatePassword()" title="Generate"><i class="fa-solid fa-wand-magic"></i></button> 
+        </div>
+    </div>
+    <div class="info">Copied to clipboard !</div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
